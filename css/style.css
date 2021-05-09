@@ -8,3 +8,31 @@ html,body {
 .about-title p {
   font-size: 4vh;
 }
+
+.services-breaks-list ul {
+  list-style-type: none;
+}
+.services-breaks-list ul a:link{
+  text-decoration: none;
+}
+
+.choose-us p{
+  font-size: 17px
+}
+
+ul#choose-us-list li {
+  display: inline;
+}
+
+.address p{
+  font-size: 17px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #000;
+  text-align: center;
+}
