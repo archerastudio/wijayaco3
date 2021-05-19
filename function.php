@@ -11,6 +11,7 @@
 <?php } ?>
 
 <?php function get_Navbar() { ?>
+
     <nav class="navbar navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">

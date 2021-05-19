@@ -5,6 +5,19 @@ html,body {
   height:100%;
 }
 
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+
 .navbar-header .navbar-brand {
   height: 100px;
 }

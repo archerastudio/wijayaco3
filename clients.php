@@ -30,23 +30,204 @@ include("function.php");
     <div id="app">
         <div class="about mt-2">
             <div class="container">
-                <div class="row">
-                <div class="about-title col-sm-3">
-                    <p class="text-start v-once">{{ name }}</p>
+              
+            <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Our Clients</h1>
+
+                <hr class="mt-2 mb-5">
+
+                <div class="row text-center text-lg-left">
+
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/a.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/b.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/c.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/d.jpg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/e.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/f.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/g.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/h.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/i.jpg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/j.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/k.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/l.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/m.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/n.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/o.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/p.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/q.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/r.jpeg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/s.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/t.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/u.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/v.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/w.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/x.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/aa.jpg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/z.jpg" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/za.png" alt="">
+                        </a>
+                  </div>
+                  <div class="col-lg-3 col-md-4 col-6">
+                    <a href="#" class="d-block mb-4 h-100">
+                          <img class="img-fluid img-thumbnail" src="images/clients/zb.png" alt="">
+                        </a>
+                  </div>
                 </div>
-                <div class="col-sm-8">
-                    <p>
-                    The Firm was founded in 1988 by HERMAN WIJAYA who has graduated  form Parahyangan Catholic University with excellent degree.
-                    </p>
-                    <p>
-                    In the mean time, he also involved in commercial practice for more than 20 years as an executive of various national leading corporation and has given him a deep understanding and skill of corporate and commercial practice. Today, he also act as Director of Human Resources at one of the largest Textile Industry in Indonesia.
-                    </p>
-                    <p>
-                    We believe that professional attitude which is based on Morality, Loyality, adn Intergruty will always be our number one priority to fulfill our client's maximum satisfication.
-                    </p>
-                </div>
-                </div>
-            </div>
+
+                <!-- <div class="row">
+                  <div class="column justify-content-center">
+                    <img src="images/clients/a.jpeg">
+                    <img src="images/clients/b.jpeg">
+                    <img src="images/clients/c.jpeg">
+                    <img src="images/clients/d.jpg">
+                    <img src="images/clients/e.jpeg">
+                    <img src="images/clients/f.jpeg">
+                    <img src="images/clients/g.jpeg">
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column justify-content-center">
+                    <img src="images/clients/h.png">
+                    <img src="images/clients/i.jpg">
+                    <img src="images/clients/j.jpeg">
+                    <img src="images/clients/k.png">
+                    <img src="images/clients/l.png">
+                    <img src="images/clients/m.jpeg">
+                    <img src="images/clients/n.png">
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column justify-content-center">
+                    <img src="images/clients/o.jpeg">
+                    <img src="images/clients/p.png">
+                    <img src="images/clients/q.jpeg">
+                    <img src="images/clients/r.jpeg">
+                    <img src="images/clients/s.png">
+                    <img src="images/clients/t.png">
+                    
+                  </div>
+               </div>
+
+               <div class="row">
+                  <div class="column justify-content-center">
+                    <img src="images/clients/u.png">
+                    <img src="images/clients/v.png">
+                    <img src="images/clients/w.png">
+                    <img src="images/clients/x.png">
+                    <img src="images/clients/aa.jpg">
+                    <img src="images/clients/z.jpg">
+                    <img src="images/clients/za.png">
+                    <img src="images/clients/zb.png">
+                  </div>
+               </div> -->
+
         </div>
     </div>
 
