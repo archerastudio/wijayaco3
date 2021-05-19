@@ -5,6 +5,15 @@ html,body {
   height:100%;
 }
 
+.navbar-header .navbar-brand {
+  height: 100px;
+}
+
+.navbar-header .navbar-brand img{
+  height: 50vh;
+  z-index: 99;
+}
+
 .about-title p {
   font-size: 4vh;
 }

@@ -1,58 +1,21 @@
+<?php 
+include("function.php");
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-
-    <title>WIJAYA PARTNERS</title>
+  <?php
+    get_head();//Memanggil halaman head yang ada didalam file function.php
+  ?>
   </head>
   <body>
 
   <div class="container">
-    <nav class="navbar navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/logo/logo-wijaya.svg" alt="" width="200" height="24" class="d-inline-block align-text-top">
-        </a>
-      </div>
-    </nav>
-
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">ABOUT US</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="services.html">SERVICES</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="teams.html">OUR TEAM</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="clients.html">OUR CLIENT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">CONTACT</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    
+    <?php 
+      get_Navbar();
+    ?>
 
     <section id="home">
       <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -63,6 +26,7 @@
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active"> 
@@ -83,7 +47,11 @@
           <div class="carousel-item">
             <img src="images/home/CAR-06.jpg" class="d-block w-100" alt="...">
           </div>
+          <div class="carousel-item">
+            <img src="images/home/CAR-07.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
+
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -92,6 +60,7 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+        
       </div>
     </section>
 
@@ -103,11 +72,12 @@
         </div>
       </div>
     </div>
-    
+
   </div>
    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
   </body>
 </html>
