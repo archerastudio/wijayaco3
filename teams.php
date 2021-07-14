@@ -21,7 +21,28 @@ include("function.php");
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/features/belt.jpg" class="d-block w-100" alt="...">
+          <?php 
+                //Memanggil halaman home, profile, products, about, contact menggunakan kondisi IF ELSE IF ELSE.
+                if (isset($_GET["teams"])) {//Cek Apakah URL Parameter Home ada.
+                    //Jika ada, panggil function get_home.
+                    get_TeamsFoto();
+                } else if (isset($_GET["hermanwijaya"])) {//Jika bukan Home, Cek kembali apakah URL Parameter profile ada?
+                    //Jika ada, panggil function get_profile.
+                    get_profileHermanFoto();
+                } else if (isset($_GET["ebbyabraham"])) {//Jika bukan Home, Cek kembali apakah URL Parameter profile ada?
+                    //Jika ada, panggil function get_profile.
+                    get_profileEbbyFoto();
+                } else if (isset($_GET["hotmabhaskara"])) {//Jika bukan profile, Cek kembali apakah URL Parameter products ada?
+                    //Jika ada, panggil function get_products.
+                    get_profileHotmaFoto();
+                } else if (isset($_GET["reviputu"])) {//Jika bukan products, Cek kembali apakah URL Parameter about ada?
+                    //Jika ada, panggil function get_about.
+                    get_profileReviFoto();
+                } else if (isset($_GET["erickstevan"])) {//Jika bukan about, Cek kembali apakah URL Parameter contact ada?
+                    //Jika ada, panggil function get_contact.
+                    get_profileErickFoto();
+                }
+            ?>
           </div>
         </div>
       </div>
@@ -31,7 +52,7 @@ include("function.php");
       <div class="container">
           <div class="row">
               <div class="about-title col-sm-4">
-                <p class="text-end">PARTNERS</p>
+                
                 <div class="text-end services-breaks-list col">
                     <ul>
                         <li class="mb-1"><a href="teams.php?hermanwijaya">Mr. HERMAN WIJAYA</a></li>

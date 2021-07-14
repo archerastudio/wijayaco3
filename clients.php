@@ -21,7 +21,7 @@ include("function.php");
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/features/belt.jpg" class="d-block w-100" alt="...">
+            <img src="images/features/ourclients.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
       </div>
@@ -31,7 +31,7 @@ include("function.php");
         <div class="about mt-2">
             <div class="container">
               
-            <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Our Clients</h1>
+            <!-- <h1 class="font-weight-light text-center text-lg-left mt-4 mb-0">Our Clients</h1> -->
 
                 <hr class="mt-2 mb-5">
 

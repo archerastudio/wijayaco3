@@ -1,10 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
 
 html,body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Castoro", serif;;
   font-size: small;
   height:100%;
 }
 
+blockquote{
+  font-family: 'Vidaloka', serif;
+  text-align: center;
+}
+
+blockquote-footer{
+  font-family: 'Vidaloka', serif;
+  text-align: center;
+}
 
 /* Create two equal columns that sits next to each other */
 .column {

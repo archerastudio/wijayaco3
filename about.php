@@ -21,7 +21,7 @@ include("function.php");
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/features/belt.jpg" class="d-block w-100" alt="...">
+            <img src="images/features/aboutus.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
       </div>
@@ -31,17 +31,17 @@ include("function.php");
       <div class="container">
         <div class="row">
           <div class="about-title col-sm-3">
-            <p class="text-start">WIJAYA PARTNERS</p>
+            <p class="text-start">WIJAYA & PARTNERS</p>
           </div>
           <div class="col-sm-8">
             <p>
-              The Firm was founded in 1988 by HERMAN WIJAYA who has graduated  form Parahyangan Catholic University with excellent degree.
+            Firma ini didirikan pada tahun 1988 oleh Herman Wijaya, dengan latar belakang pendidikan sarjana hukum yang telah lulus dengan predikat memuaskan dari Universitas Katolik Parahyangan.
             </p>
             <p>
-              In the mean time, he also involved in commercial practice for more than 20 years as an executive of various national leading corporation and has given him a deep understanding and skill of corporate and commercial practice. Today, he also act as Director of Human Resources at one of the largest Textile Industry in Indonesia.
+            Sebelumnya mendirikan firma ini, Herman Wijaya telah berkecimpung dalam dunia praktek bisnis selama lebih dari 20 tahun dan berpengalaman menjabat sebagai eksekutif pada berbagai perusahaan nasional terkemuka. Seluruh pengalaman ini telah memberikan pemahaman yang mendalam dan keahlian dalam dunia praktek korporasi dan bisnis.
             </p>
             <p>
-              We believe that professional attitude which is based on Morality, Loyality, adn Intergruty will always be our number one priority to fulfill our client's maximum satisfication.
+            Kami percaya bahwa sikap profesional yang berlandaskan moralitas, loyalitas dan integritas akan selalu menjadi prioritas utama kami guna memenuhi kepuasan maksimal seluruh klien kami.
             </p>
           </div>
         </div>

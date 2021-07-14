@@ -21,7 +21,7 @@ include("function.php");
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="images/features/belt.jpg" class="d-block w-100" alt="...">
+            <img src="images/features/services.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
       </div>
@@ -30,27 +30,58 @@ include("function.php");
     <div class="services mt-2">
       <div class="container">
         <div class="services-breaks row">
-           <p>Wijaya Partners principal areas of practice include :</p>
-            <div class="services-breaks-list col">
+           <p style="text-transform:uppercase;
+                     font-weight:bold;">Bidang layanan hukum Wijaya & Partners meliputi :</p>
+            <div class="services-breaks-list col" style="text-transform:uppercase;
+                     font-weight:bold;">
                 <ul>
-                    <li><a href="">CORPORATE AND COMMERCIAL</a></li>
-                    <li><a href="">BANKING & FINANCE</a></li>
-                    <li><a href="">INESTMENT LAW</a></li>
-                    <li><a href="">INFORMATION TECHNOLOGY, E-COMMERCE,</a></li>
-                    <li><a href="">MEDIA AND TELECOMMUNICATION</a></li>
-                    <li><a href="">OIL & GAS</a></li>
-                    <li><a href="">AVIATION</a></li>
+                    <li><a href="ourservices.php?corporate">HUKUM PERUSAHAAN DAN BISNIS</a></li>
+                    <li><a href="ourservices.php?labor">HUKUM KETENAGAKERJAAN</a></li>
+                    <li><a href="ourservices.php?bankruptcy">HUKUM KEPAILITAN</a></li>
+                    <li><a href="ourservices.php?consumer">PERLINDUNGAN KONSUMEN</a></li>
+                    <li><a href="ourservices.php?banking">HUKUM PERBANKAN DAN PEMBIAYAAN</a></li>
+                    <li><a href="ourservices.php?land">HUKUM AGRARIA</a></li>
+                    <li><a href="ourservices.php?family">HUKUM KELUARGA</a></li>
                 </ul>
             </div>
-            <div class="services-breaks-list col">
+            <div class="services-breaks-list col" style="text-transform:uppercase;
+                     font-weight:bold;">
                 <ul>
-                    <li><a href="">INTELLECTUAL PROPERTY</a></li>
-                    <li><a href="">ENVIRONMENT</a></li>
-                    <li><a href="">INESTMENT LAW</a></li>
-                    <li><a href="">FORESTRY AND PLANTATION</a></li>
-                    <li><a href="">ANTITRUST & INTERNATIONAL TRADE</a></li>
-                    <li><a href="">HEALTHCARE</a></li>
-                    <li><a href="">CAPITAL MARKETS</a></li>
+                    <li><a href="ourservices.php?sport">SPORT AND ENTERTAINMENT LAW</a></li>
+                    <li><a href="ourservices.php?criminal">HUKUM PIDANA</a></li>
+                    <li><a href="ourservices.php?corruption">HUKUM TINDAK PIDANA KORUPSI</a></li>
+                    <li><a href="ourservices.php?plantation">HUKUM PERKEBUNAN</a></li>
+                    <li><a href="ourservices.php?state">BADAN USAHA MILIK NEGARA</a></li>
+                    <li><a href="ourservices.php?tax">TAX LAW</a></li>
+                    <li><a href="ourservices.php?procurement">HUKUM PENGADAAN</a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="services mt-2">
+      <div class="container">
+        <div class="services-breaks row">
+           <p style="text-transform:uppercase;
+                     font-weight:bold;">Bentuk layanan hukum yang di berikan meliputi :</p>
+            <div class="services-breaks-list col" style="text-transform:uppercase;
+                     font-weight:bold;">
+                <ul>
+                    <li><a href="ourservices.php?legal">KONSULTASI HUKUM</a></li>
+                    <li><a href="ourservices.php?businesscontract">PEMBUATAN KONTRAK BISNIS</a></li>
+                    <li><a href="ourservices.php?corporate">PEMBUATAN PERATURAN PERUSAHAAN</a></li>
+                    <li><a href="ourservices.php?civil">LITIGASI DALAM PERKARA PERDATA DAN PIDANA</a></li>
+                    <li><a href="ourservices.php?alternative">ALTERNATIVE DISPUTE RESOLUTIONS (ADR)</a></li>
+                    <li><a href="ourservices.php?arbitrator">ARBITRATOR</a></li>
+                    <li><a href="ourservices.php?taxlitigator">TAX LITIGATOR</a></li>
+                </ul>
+            </div>
+            <div class="services-breaks-list col" style="text-transform:uppercase;
+                     font-weight:bold;">
+                <ul>
+                    <li><a href="ourservices.php?legalauditor">LEGAL AUDITOR</a></li>
+                    <li><a href="ourservices.php?procurementlaw">PENGACARA PENGADAAN</a></li>
                 </ul>
             </div>
         </div>
